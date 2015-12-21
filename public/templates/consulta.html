@@ -1,0 +1,51 @@
+<div class="panel__condiciones">
+	<header class="header">
+		<div class="title title__condiciones title--horizontal">
+			<div class="header--icon">
+				<span class="icon-file-text2"></span>
+			</div>
+			<div class="header--info">
+				<h1 class="h1__consulta pull-left">
+					Seguros Obligatorios de daños
+				</h1>
+				<div class="header--control pull-right">
+					<div class="header__usuario pull-left">
+						Usuario: <span id="usuarioConsulta">Consulta 22</span>
+					</div>
+					<div class="logout pull-right">
+						<a href="#" id="logout">Cerrar sesión</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="panel--body panel--body__consulta">
+		<form class="form form__fetch__data" id="formConsulta" name="formConsulta">
+			<div class="textfield">
+				<label class="label transition">Póliza</label>
+				<input class="input input__consult" name='consultaPoliza' id='consultaPoliza' required>
+			</div>
+			<div class="textfield">
+				<label class="label transition">Ubicación</label>
+				<input class="input input__consult">
+			</div>
+			<div class="dropdown">
+				<label class="label transition">Compañía</label>
+				<div class="dropdown--container">
+					<select class="dropdown--select">
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="opel">Opel</option>
+						<option value="audi">Audi</option>
+					</select>
+				</div>
+			</div>
+			<button type="submit" class="btn btn--orange btn__fetch__data" id="btnGetData">Consultar</button>
+			<span>* Campos obligatorios</span>
+		</form>
+		<div class="consulta consulta--body" id="consultaContainer">
+			
+		</div>
+	</section>
+</div>
+<script src="./public/js/consulta/consultaController.js"></script>

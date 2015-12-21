@@ -1,0 +1,63 @@
+<div class="panel__condiciones">
+	<header class="header">
+		<div class="title title__condiciones title--horizontal">
+			<div class="header--icon">
+				<span class="icon-file-text2"></span>
+			</div>
+			<div class="header--info">
+				<h1 class="h1__consulta pull-left">
+					Seguros Obligatorios de daños
+				</h1>
+				<div class="header--control header--control__gestor pull-right">
+					<div class="header__usuario header__usuario__gestor pull-left">
+						Usuario: <span id="usuarioConsulta">Consulta 22</span>
+					</div>
+
+					<div class=" pull-right">
+						<a href="#!/login-gestor" id="logoutGestor">Cerrar sesión</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="panel--body panel--body__consulta">
+		<div class="title__gestor">Gestor de usuarios</div>
+		<div class="consulta consulta--grid" id="consultaContainer">
+			<table class="table">
+				<thead>
+					<tr>	
+						<td>Usuario</td>
+						<td>Institución</td>
+						<td>Tipo de seguro</td>
+						<td>Correo</td>
+						<td><button class="btn btn--orange">Agregar</button></td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>SEDESOL1</td>
+						<td>Secretaría de desarrollo social</td>
+						<td>Guarderías SEDESOL</td>
+						<td>guardería@sedesol.com</td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td>SEDESOL2</td>
+						<td>Secretaría de desarrollo social</td>
+						<td>Guarderías SEDESOL</td>
+						<td>guardería@sedesol.com</td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td>SEDESOL3</td>
+						<td>Secretaría de desarrollo social</td>
+						<td>Guarderías SEDESOL</td>
+						<td>guardería@sedesol.com</td>
+						<td><span></span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</div>
+<script src="./public/js/gestor/consultaGestorController.js"></script>

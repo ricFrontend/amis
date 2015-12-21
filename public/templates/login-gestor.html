@@ -1,0 +1,35 @@
+<div class="panel__login" id="panelLogin">
+	<header class="header">
+		<div class="title title__login">
+			<span class="icon-checkmark h1__login margin-bottom-20 margin-top-20"> </span>
+			<h1 class="h1__login">
+				Gestión de usuarios
+			</h1>
+		</div>
+		<div class="title title__login title--orange">
+			<span></span>
+		</div>
+	</header>
+
+	<img class="img img__login" src="public/images/imagen_principal.png">
+
+	<form class="form form__login" id="formLoginAccess" name="formLoginAccess" method="get" action="">
+
+			<div class="textfield">
+				<label class="label transition">Usuario</label>
+				<input type="text" class="input input__login" maxlength="8" name='loginName' id='loginName' module='login' required>
+			</div>
+			<div class="textfield">
+				<label class="label transition">Contraseña</label>
+				<input type="password" class="input input__login" maxlength="8" name='loginPassword' id='loginPassword' module='login' required>
+			</div>
+
+			<button type='submit' class="btn btn--orange btn__access" id="btnAccess">Ingresar</button>
+
+		<a class="link" href="#" id="btnRecoverPass">Olvidé mi contraseña</a>
+	</form>
+	<footer class="legal">
+
+	</footer>
+</div>
+<script src="./public/js/gestor/loginGestorController.js"></script>

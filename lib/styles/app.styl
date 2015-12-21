@@ -1,0 +1,408 @@
+primaryColor = #f68428
+secondary-color = #e7e7e8
+
+@font-face 
+	font-family 'icomoon'
+	font-weight normal
+	font-style normal
+	src url('../fonts/icomoon.eot?t0royq')
+	src url('../fonts/icomoon.eot?t0royq#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?t0royq') format('truetype'),
+		url('../fonts/icomoon.woff?t0royq') format('woff'),
+		url('../fonts/icomoon.svg?t0royq#icomoon') format('svg')
+[class^="icon-"], [class*=" icon-"] 
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family 'icomoon' !important
+	speak none
+	font-style normal
+	font-weight normal
+	font-variant normal
+	text-transform none
+	line-height 1
+	display inline-block
+
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+    
+.icon-file-text2:before 
+	content "\e900"
+
+.icon-copy:before 
+	content "\e901"
+
+.icon-clipboard:before 
+	content "\e902"
+
+.icon-checkmark:before 
+	content "\e903"
+html 
+	margin 0
+	padding 0
+	background #cdcfd1
+body 
+	 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,cdcfd1+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #cdcfd1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#cdcfd1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#cdcfd1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	font-family arial
+	margin 0
+	padding 0
+	color #818285
+h1 
+	font-weight normal
+	margin 0
+	padding 0
+input 
+	&.error 
+		border 1px solid #f68428
+label
+	&.error
+		color #f68428
+		font-size 16px
+		position relative
+		top 5px
+.pull-right
+	float right
+.pull-left
+	float left
+.margin-bottom
+	&-20
+		margin-bottom 20px
+.margin-top
+	&-20
+		margin-top 20px
+	
+.panel
+	border 2px solid #5f6062
+	left 0 
+	margin auto
+	position absolute
+	right 0
+	top 0
+	bottom 0
+	&__login
+		width 580px
+	&--body 
+		background-color secondary-color
+		display block
+		padding 40px 44px
+		&__consulta
+			padding 7px
+.btn
+	border 0px
+	pointer cursor
+	display inline-block
+	font-size 14px
+	font-weight normal
+	&--orange
+		background-color primaryColor
+		padding 6px 10px
+		color white
+	
+.subtitle
+	display block
+	text-align center
+	font-size 24px
+	padding 28px 0px
+.title__gestor
+	font-size 30px
+	text-align center
+	color primaryColor
+	padding 20px 0px
+.mensaje
+	display block
+	text-align center
+	&--confirmacion
+		width 350px
+		margin auto
+.header
+	background-color white
+	.logo__login
+		height 148px
+		padding 26px 46px
+		width 468px
+	.logo--horizontal
+		height 102px
+		padding 20px
+		width 422px
+		display inline-block
+	&--control
+		width 725px
+		display block
+		padding 0px 20px
+		clear both
+		&> div
+			display inline-block
+			margin-top 15px
+		&__gestor
+			width 100%
+			
+	&__usuario
+		color #818285
+		&__gestor
+			padding-left 20px
+	&--icon
+		display inline-block
+		font-size 68px
+		vertical-align top
+		padding 10px 0px 0px 20px
+	&--info
+		display inline-block
+		width 1210px
+		padding-left 20px
+
+.title
+	color primaryColor
+	&--orange
+		background-color primaryColor
+		color white !important
+	
+	&__login
+		padding 10px 20px
+		text-align center
+	&--horizontal
+		display inline-block
+		vertical-align top
+		width 100%
+		text-align center
+		padding 10px 0px
+		// margin-top 38px
+.h1 
+	&__login 
+		font-size 38px
+	&__condiciones
+		padding 6px 0px
+		font-size 34px
+	&__consulta
+		padding 6px 0px
+		font-size 34px
+.h2
+	&__condiciones
+		padding 0px
+		font-size 34px
+		font-weight normal
+		margin 0
+		color #5f6062
+.container
+	&__conditions	
+		text-align center
+	&__legal__text
+		text-align left
+		max-height 402px
+		background-color white
+		color #5f6062
+		overflow-y scroll
+		overflow-x none
+		padding 10px
+		font-size 14px
+		
+.img__login
+	// height 280px
+	width 580px
+.hidden
+	visibility hidden
+.logout
+	display
+.table	
+	width 100%
+	border-collapse collapse
+	thead
+		font-weight bold
+		border-top 2px solid primaryColor
+		border-bottom 2px solid primaryColor
+		tr
+			td 
+				padding 15px 0px
+				&:first-child
+					padding-left 100px
+				&:last-child
+					padding-right 100px
+	tbody
+		tr
+			td
+				padding 15px 0px
+				&:first-child
+					padding-left 100px
+				&:last-child
+					padding-right 100px
+				
+.consulta
+	display inline-block
+	vertical-align top
+	&--body
+		max-width 700px
+		padding 30px
+		border-left 1px solid #f68428
+		min-height 446px
+	&--grid 
+		width 100%
+		min-height 446px
+	&--lista
+		list-style none
+		padding 0px
+		&__advertencia
+			color primaryColor
+			
+.lista
+	&--elem
+		padding 10px 0px
+		&__identificador
+			font-weight bold
+		
+.form
+	margin 0
+	&__login
+		background-color secondary-color
+		overflow hidden
+		padding 15px 18px
+		text-align right
+	&__password
+		background-color secondary-color
+		overflow hidden
+		padding 15px 18px
+		text-align center
+		padding-bottom 92px
+	&__conditions
+		text-align center
+	&__fetch__data
+		width 488px
+		display inline-block
+		padding 30px
+		position relative
+		height 100%
+		height 430px
+		span
+			position absolute
+			bottom 0
+		//border-right 1px solid #f68428
+	.btn 
+		border 0px
+		cursor pointer
+		display inline-block
+		font-size 14px
+		font-weight normal
+		margin 15px 0px
+		&--hide
+			display none
+		&--orange
+			background-color primaryColor
+			color white
+			padding 6px 30px
+			
+		&__conditions
+			margin 16px 8px 0px 8px
+		&__access
+			width 140px
+		&__fetch__data
+			float right
+		&--disabled
+			opacity 0.4
+			cursor default
+	.textfield
+		padding 15px 0px
+		width 100%
+		text-align right
+		.input
+			padding 5px 10px
+			font-size 18px
+			display inline-block
+			vertical-align bottom
+			&__login
+				width 390px
+			&__recuperacion
+				width 330px
+			&__consult
+				width 359px
+		.label
+			color #818285
+			display inline-block
+			min-width 100px
+			text-align left
+			font-size 18px
+	.dropdown
+		padding 8px 0px
+		overflow hidden
+		&--container
+			background #cdced0 url("img/icon-select.png") no-repeat 90% 50%
+			border 1px solid #ccc
+			display inline-block
+			//padding 4px
+			font-size 21px
+			color #818285
+			width 381px
+			text-align center
+		&--select
+			padding 5px 8px
+			font-size 21px
+			border none
+			box-shadow none
+			background transparent
+			background-image none
+			-webkit-appearance none
+			width 100%
+			text-align center
+			padding 10px
+		.label
+			color #818285
+			display inline-block
+			min-width 100px
+			text-align left
+			vertical-align bottom
+	.checkbox 
+		position relative
+		input[type=checkbox]
+			display none
+			&:checked + .checkbox--box:after
+				opacity 1
+				
+		&--label
+			margin-left 57px
+		label
+			position relative
+		    
+			&.checkbox--box
+				border 1px solid #A5A2A2
+				background-color white
+				cursor pointer
+				position absolute
+				width 30px
+				height 30px
+				display inline-block
+				margin 16px 7px 0px 7px
+				left 0
+				&:hover::after
+					opacity 0.5
+				&:after
+					opacity 0.2
+					content ''
+					position absolute
+					width 16px
+					height 8px
+					background transparent
+					top 7px
+					left 7px
+					border 3px solid #818285
+					border-top none
+					border-right none
+					-webkit-transform rotate(-45deg)
+					-moz-transform rotate(-45deg)
+					-o-transform rotate(-45deg)
+					-ms-transform rotate(-45deg)
+					transform rotate(-45deg) 
+		// label::before
+		// 	border-radius 3px
+	
+.link
+	clear both
+	display block
+	font-size 15px
+	
+.legal
+	background-color #cdced0
+	text-align center
+	padding 15px
+
+
+
